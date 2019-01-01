@@ -1,0 +1,11 @@
+title=Happy new Year
+date=2019-01-01
+type=post
+tags=blog, asciidoc
+status=published
+~~~~~~
+= Happy new year!
+
+Why not start the 2019 with a brand new old style blog?
+
+Stay tuned!
