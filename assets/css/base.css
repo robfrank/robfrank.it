@@ -4,6 +4,8 @@
 html,
 body {
   height: 100%;
+  font-size: 1em;
+  line-height: 1.4;
   /* The html and body elements cannot have any padding or margin. */
 }
 
