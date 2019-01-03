@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <title><#if (content.title)??><#escape x as x?xml>${content.title}</#escape><#else>RobFrank</#if></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="A blog about technology, programming, architecture and methodologies">
+    <meta name="author" content="Roberto FRANK Franchini">
+    <meta name="keywords" content="dev programming tdd architecture technology ">
     <meta name="generator" content="JBake">
 
     <!-- Le styles -->
