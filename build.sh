@@ -17,12 +17,12 @@
 #
 if [ $# -eq 0 ]
 then # if no argument passed in, set jBake to latest version
-    jbake_version=2.6.4
+    jbake_version=2.6.5
 else
     jbake_version=$1
 fi
 echo "downloading JBake v$jbake_version"
-wget --quiet https://dl.bintray.com/jbake/binary/jbake-$jbake_version-bin.zip
+wget --quiet https://github.com/jbake-org/jbake/releases/download/v$jbake_version/jbake-$jbake_version-bin.zip
 echo "unzipping JBake v$jbake_version"
 unzip -o -q jbake-$jbake_version-bin.zip
 jbake-$jbake_version-bin/bin/jbake -b
